@@ -1,0 +1,93 @@
+{
+  "company": "Peak Air Co",
+  "role": "Office Manager",
+  "demo_login": {
+    "email": "owner@rolevise.demo",
+    "password": "demo1234"
+  },
+  "audit_price_usd": 99,
+  "classification_options": ["keep", "automate", "outsource"],
+  "deferred_allowed": false,
+  "tasks": [
+    {
+      "id": "pa-om-01",
+      "title": "Answer phones and route customer calls",
+      "description": "Handle inbound calls, take messages, transfer to techs or owner.",
+      "suggested": "keep",
+      "frequency": "daily",
+      "hours_per_week": 6
+    },
+    {
+      "id": "pa-om-02",
+      "title": "Schedule HVAC service appointments",
+      "description": "Book installs and maintenance windows; confirm with customers.",
+      "suggested": "automate",
+      "frequency": "daily",
+      "hours_per_week": 5
+    },
+    {
+      "id": "pa-om-03",
+      "title": "Send appointment reminder texts/emails",
+      "description": "Remind customers 24h before service visits.",
+      "suggested": "automate",
+      "frequency": "daily",
+      "hours_per_week": 2
+    },
+    {
+      "id": "pa-om-04",
+      "title": "Create and send invoices",
+      "description": "Generate invoices after jobs; follow payment status.",
+      "suggested": "automate",
+      "frequency": "daily",
+      "hours_per_week": 4
+    },
+    {
+      "id": "pa-om-05",
+      "title": "Chase overdue AR",
+      "description": "Call or email customers with past-due balances.",
+      "suggested": "outsource",
+      "frequency": "weekly",
+      "hours_per_week": 3
+    },
+    {
+      "id": "pa-om-06",
+      "title": "Order office and truck supplies",
+      "description": "Track inventory; place supply and parts orders.",
+      "suggested": "outsource",
+      "frequency": "weekly",
+      "hours_per_week": 2
+    },
+    {
+      "id": "pa-om-07",
+      "title": "Onboard new technicians paperwork",
+      "description": "Collect W-4, I-9, certifications; set up payroll records.",
+      "suggested": "outsource",
+      "frequency": "monthly",
+      "hours_per_week": 1.5
+    },
+    {
+      "id": "pa-om-08",
+      "title": "Coordinate warranty claims with manufacturers",
+      "description": "File claims, track approvals, communicate status to customers.",
+      "suggested": "keep",
+      "frequency": "weekly",
+      "hours_per_week": 2
+    },
+    {
+      "id": "pa-om-09",
+      "title": "Update job status in CRM / whiteboard",
+      "description": "Keep dispatch board and CRM in sync after each visit.",
+      "suggested": "automate",
+      "frequency": "daily",
+      "hours_per_week": 3
+    },
+    {
+      "id": "pa-om-10",
+      "title": "Prepare weekly owner ops summary",
+      "description": "Compile jobs completed, revenue, open AR, and staffing notes for the owner.",
+      "suggested": "keep",
+      "frequency": "weekly",
+      "hours_per_week": 2
+    }
+  ]
+}
